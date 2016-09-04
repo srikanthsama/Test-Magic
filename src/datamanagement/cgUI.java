@@ -127,11 +127,11 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 
 		jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Marks"));
 
-		jLabel2.setText("Asg1:");
+		jLabel2.setText("Asg1 score:");
 
-		jLabel3.setText("Asg2:");
+		jLabel3.setText("Asg2 score:");
 
-		jLabel4.setText("Exam:");
+		jLabel4.setText("Exam Result:");
 
 		jTextField1.setEditable(false);
 		jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -452,3 +452,4 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 	private javax.swing.JTextField jTextField2;
 	private javax.swing.JTextField jTextField3;
 }
+
